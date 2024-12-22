@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = "hello_flask_app"
         DOCKER_CONTAINER = "hello_flask_app_container"
-        VERSION = "v1"
+        VERSION = "v2"
     }
 
     stages {
